@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LunchActivity">
+
+    <ImageView
+        android:id="@+id/chickenImageView"
+        android:layout_width="120dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="43dp"
+        app:srcCompat="@drawable/chicken" />
+
+    <TextView
+        android:id="@+id/chickenTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="13dp"
+        android:text="CHICKEN"
+        android:textColor="#D80A0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/chickenDescriptionTextView"
+        android:layout_width="290dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/chickenDescription_txt"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/meatballTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="138dp"
+        android:text="MEATBALL"
+        android:textColor="#D80A0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/meatballImageView"
+        android:layout_width="120dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="169dp"
+        app:srcCompat="@drawable/meatball" />
+
+    <TextView
+        android:id="@+id/meatballDescriptionTextView"
+        android:layout_width="290dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/meatballDescription_txt"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/hummusImageView"
+        android:layout_width="120dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="288dp"
+        app:srcCompat="@drawable/hummus" />
+
+    <TextView
+        android:id="@+id/hummusDescriptionTextView"
+        android:layout_width="290dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="267dp"
+        android:layout_marginEnd="3dp"
+        android:text="@string/hummusDescription_txt"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/hummusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="257dp"
+        android:text="HUMMUS"
+        android:textColor="#D80A0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/wrapImageView"
+        android:layout_width="120dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="419dp"
+        app:srcCompat="@drawable/wrap" />
+
+    <TextView
+        android:id="@+id/wrapDescriptionTextView"
+        android:layout_width="290dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginEnd="3dp"
+        android:text="@string/wrapDescription_txt"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/wrapTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="386dp"
+        android:text="WRAP"
+        android:textColor="#D80A0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

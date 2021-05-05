@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DinnerActivity">
+
+    <ImageView
+        android:id="@+id/salmonImageView"
+        android:layout_width="108dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="43dp"
+        app:srcCompat="@drawable/salmon" />
+
+    <TextView
+        android:id="@+id/salmonTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="13dp"
+        android:text="SALMON"
+        android:textColor="#D80A0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/salmonDescriptionTextView"
+        android:layout_width="290dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/salmonDescription_txt"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/broccoliTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="138dp"
+        android:text="BROCCOLI"
+        android:textColor="#D80A0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/broccoliballImageView"
+        android:layout_width="120dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="169dp"
+        app:srcCompat="@drawable/broccoli" />
+
+    <TextView
+        android:id="@+id/broccoliDescriptionTextView"
+        android:layout_width="290dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/broccoliDescription_txt"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/caviarImageView"
+        android:layout_width="120dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="288dp"
+        app:srcCompat="@drawable/caviar" />
+
+    <TextView
+        android:id="@+id/caviarDescriptionTextView"
+        android:layout_width="290dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="267dp"
+        android:layout_marginEnd="3dp"
+        android:text="@string/caviarDescription_txt"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/caviarTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="257dp"
+        android:text="CAVIAR"
+        android:textColor="#D80A0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/beefImageView"
+        android:layout_width="99dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="418dp"
+        app:srcCompat="@drawable/beef" />
+
+    <TextView
+        android:id="@+id/beefDescriptionTextView"
+        android:layout_width="290dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginEnd="3dp"
+        android:text="@string/beefDescription_txt"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/beefTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="386dp"
+        android:text="BEEF"
+        android:textColor="#D80A0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

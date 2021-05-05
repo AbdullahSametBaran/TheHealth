@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FullbodyActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="601dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/squatTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Squat(12-10-10-8-6)"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/deadliftTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deadlift(10-10-10-8)"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/benchpressTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bench Press(12-10-10-8-6)"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/inclinepressTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Incline Press(4x10)"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/barbellRowTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Barbell Row(10-10-8-6)"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/pullupTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pull Up(4x10)"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/plankTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plank(3x1minute)"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/crunchTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crunch(3x15)"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

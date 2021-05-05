@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">HealthDemo</string>
+    <string name="weightEditText">Weight</string>
+    <string name="heightEditText">Height</string>
+    <string name="calculateBmiButton">Calculate BMI</string>
+
+    <string name="very_severely_underweight">Very severely underweight</string>
+    <string name="severely_underweight">Severely underweight</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese_class_i">Moderately Obese</string>
+    <string name="obese_class_ii">Severely Obese</string>
+    <string name="obese_class_iii">Very Severely Obese</string>
+    <string name="honeyDescription_txt">5Gr\n15Kcal\nCarb 3.75g\nProtein 0.02g\nFat 0.0g</string>
+    <string name="bananaDescription_txt">170Gr\n110Kcal\nCarb 30g\nProtein 1.5g\nFat 0.0g</string>
+    <string name="oatDescription_txt">100Gr\n351Kcal\nCarb 57.27g\nProtein 11.35g\nFat 5.8g</string>
+    <string name="eggDescription_txt">50Gr\n72Kcal\nCarb 0.36g\nProtein 6.28g\nFat 4.76g</string>
+    <string name="chickenDescription_txt">150Gr\n340Kcal\nCarb 32.6g\nProtein 27.6g\nFat 14.6g</string>
+    <string name="meatballDescription_txt">140Gr\n235Kcal\nCarb 6.88g\nProtein 18.27g\nFat 14.66g</string>
+    <string name="hummusDescription_txt">140Gr\n339Kcal\nCarb 18.87g\nProtein 8.24g\nFat 24.87g</string>
+    <string name="wrapDescription_txt">475Gr\n354Kcal\nCarb 38.79g\nProtein 13.3g\nFat 15.98g</string>
+    <string name="salmonDescription_txt">85Gr\n175Kcal\nCarb 0.0g\nProtein 18.8g\nFat 10.5g</string>
+    <string name="broccoliDescription_txt">88Gr\n19Kcal\nCarb 3.4g\nProtein 1.0g\nFat 0.6g</string>
+    <string name="caviarDescription_txt">15Gr\n40Kcal\nCarb 0.6g\nProtein 3.6g\nFat 2.69g</string>
+    <string name="beefDescription_txt">569Gr\n1184Kcal\nCarb 0.0g\nProtein 148.2g\nFat 63.0g</string>
+    <string name="guacamoleDescription_txt">233Gr\n352Kcal\nCarb 20.0g\nProtein 4.2g\nFat 286g</string>
+    <string name="peasDescription_txt">28Gr\n119Kcal\nCarb 18.0g\nProtein 5.3g\nFat 35.g</string>
+    <string name="chocolateDescription_txt">28Gr\n155Kcal\nCarb 17.0g\nProtein 1.4g\nFat 8.9g</string>
+    <string name="popcornDescription_txt">24Gr\n93Kcal\nCarb 18.6g\nProtein 3.0g\nFat 1.1g</string>
+
+</resources>

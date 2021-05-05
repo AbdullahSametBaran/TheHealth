@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplitActivity">
+
+    <EditText
+        android:id="@+id/chestpressEditText"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="CHEST/TRICEPS"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/benchpressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bench Press(10x4)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chestpressEditText" />
+
+    <TextView
+        android:id="@+id/inclinepressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incline Press(3x12)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/benchpressTextView" />
+
+    <TextView
+        android:id="@+id/declinepressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decline Press(3x12)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inclinepressTextView" />
+
+    <TextView
+        android:id="@+id/dumbleflyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dumble Fly(3x12)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/declinepressTextView" />
+
+    <TextView
+        android:id="@+id/skullcrusherTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skull Crusher\n(12-10-8)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dumbleflyTextView" />
+
+    <TextView
+        android:id="@+id/pushdownTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pushdown\n(3x15)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skullcrusherTextView" />
+
+    <EditText
+        android:id="@+id/backbicepsEditText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="BACK/BICEPS"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pushdownTextView" />
+
+    <TextView
+        android:id="@+id/pullupTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pull-up(3x12)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backbicepsEditText" />
+
+    <TextView
+        android:id="@+id/barbellRowTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barbell Row(10-10-8-8)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pullupTextView" />
+
+    <TextView
+        android:id="@+id/tbarRowTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T-bar Row(10-10-8-6)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barbellRowTextView" />
+
+    <TextView
+        android:id="@+id/pulloverTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pull-over(3x12)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbarRowTextView" />
+
+    <TextView
+        android:id="@+id/barbellCurlTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barbell Curl(10-10-8)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pulloverTextView" />
+
+    <TextView
+        android:id="@+id/hummercurlTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hummer Curl(10-10-8)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barbellCurlTextView" />
+
+    <EditText
+        android:id="@+id/legshoulderEditText"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="LEG/SHOULDER"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/squatTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:text="Squat(4x10)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/benchpressTextView"
+        app:layout_constraintTop_toBottomOf="@+id/legshoulderEditText" />
+
+    <TextView
+        android:id="@+id/legpressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:text="Leg Press(4x10)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/inclinepressTextView"
+        app:layout_constraintTop_toBottomOf="@+id/squatTextView" />
+
+    <TextView
+        android:id="@+id/lungeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="Lunge(3x12)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/declinepressTextView"
+        app:layout_constraintTop_toBottomOf="@+id/legpressTextView" />
+
+    <TextView
+        android:id="@+id/legcurlTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:text="Leg Curl(10-8-6)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/dumbleflyTextView"
+        app:layout_constraintTop_toBottomOf="@+id/lungeTextView" />
+
+    <TextView
+        android:id="@+id/seatedcalfraiseTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:text="Seated Calf Raise(3x15)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/skullcrusherTextView"
+        app:layout_constraintTop_toBottomOf="@+id/legcurlTextView" />
+
+    <TextView
+        android:id="@+id/standingcalfraiseTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:text="Standing Calf Raise(3x15)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/pushdownTextView"
+        app:layout_constraintTop_toBottomOf="@+id/seatedcalfraiseTextView" />
+
+    <TextView
+        android:id="@+id/militarypressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:text="Military Press(12-10-10-8-6)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/pushdownTextView"
+        app:layout_constraintTop_toBottomOf="@+id/standingcalfraiseTextView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BreakfastActivity">
+
+    <ImageView
+        android:id="@+id/honeyImageView"
+        android:layout_width="120dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="43dp"
+        app:srcCompat="@drawable/bal" />
+
+    <TextView
+        android:id="@+id/honeyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        android:text="HONEY"
+        android:textColor="#D80A0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/honeyDescriptionTextView"
+        android:layout_width="290dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/honeyDescription_txt"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/bananaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="138dp"
+        android:text="BANANA"
+        android:textColor="#D80A0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/bananaImageView"
+        android:layout_width="120dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="169dp"
+        app:srcCompat="@drawable/muz" />
+
+    <TextView
+        android:id="@+id/bananaDescriptionTextView"
+        android:layout_width="290dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/bananaDescription_txt"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/oatImageView"
+        android:layout_width="120dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="288dp"
+        app:srcCompat="@drawable/yulaf" />
+
+    <TextView
+        android:id="@+id/oatDescriptionTextView"
+        android:layout_width="290dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="267dp"
+        android:layout_marginEnd="3dp"
+        android:text="@string/oatDescription_txt"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/oatTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="259dp"
+        android:text="OAT"
+        android:textColor="#D80A0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/eggImageView"
+        android:layout_width="120dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="419dp"
+        app:srcCompat="@drawable/yumurta" />
+
+    <TextView
+        android:id="@+id/eggDescriptionTextView"
+        android:layout_width="290dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginEnd="3dp"
+        android:text="@string/eggDescription_txt"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/eggTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="391dp"
+        android:text="EGG"
+        android:textColor="#D80A0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

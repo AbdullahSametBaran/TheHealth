@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SnacksActivity">
+
+    <ImageView
+        android:id="@+id/guacamoleImageView"
+        android:layout_width="108dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="43dp"
+        app:srcCompat="@drawable/guacamole" />
+
+    <TextView
+        android:id="@+id/salmonTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:text="GUACAMOLE"
+        android:textColor="#D80A0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/guacamoleDescriptionTextView"
+        android:layout_width="290dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/guacamoleDescription_txt"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/peaksTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="138dp"
+        android:text="CHICKPEAS"
+        android:textColor="#D80A0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/peasImageView"
+        android:layout_width="120dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="169dp"
+        app:srcCompat="@drawable/peas" />
+
+    <TextView
+        android:id="@+id/peasDescriptionTextView"
+        android:layout_width="290dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/peasDescription_txt"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/chocolateImageView"
+        android:layout_width="120dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="288dp"
+        app:srcCompat="@drawable/darkchocolate" />
+
+    <TextView
+        android:id="@+id/chocolateDescriptionTextView"
+        android:layout_width="290dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="267dp"
+        android:layout_marginEnd="3dp"
+        android:text="@string/chocolateDescription_txt"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/chocolateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="269dp"
+        android:text="DARK CHOC"
+        android:textColor="#D80A0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/popcornImageView"
+        android:layout_width="99dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="418dp"
+        app:srcCompat="@drawable/popcorn" />
+
+    <TextView
+        android:id="@+id/popcornDescriptionTextView"
+        android:layout_width="290dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginEnd="3dp"
+        android:text="@string/popcornDescription_txt"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/popcornTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="386dp"
+        android:text="POPCORN"
+        android:textColor="#D80A0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

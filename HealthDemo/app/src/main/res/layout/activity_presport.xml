@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PresportActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forward lunge"
+        android:textStyle="bold"
+        android:textColor="#D80A0A0A"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="96dp"
+            android:layout_height="81dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/stretch6"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="63dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Kneel on one knee. Place the other leg forward at a right angle(knee right over ankle).Lean forward to feel the stretch in the front of the thigh. Hold for 20 seconds. Repeat several times. Switch legs." />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Side lunge."
+        android:textStyle="bold"
+        android:textColor="#D80A0A0A"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="120dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="72dp"
+            android:layout_height="111dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/stretch5" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="45dp"
+            android:text="Stand with feet far apart.Bend one leg and lean toward that knee. Hold for 20 seconds. Repeat several times, then bend and lean toward the opposite leg." />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Standing quad (thigh) stretch"
+        android:textStyle="bold"
+        android:textColor="#D80A0A0A"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="128dp"
+            android:layout_height="204dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="220dp"
+            app:srcCompat="@drawable/stretch3" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="275dp"
+            android:text="Using the hand on the same side of the body, he/she should pull the foot up toward the buttocks, stretching the thigh. Keep the knees close. Hold for 20 seconds, then release.  Switch legs." />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Side seat straddle"
+        android:textStyle="bold"
+        android:textColor="#D80A0A0A"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="143dp"
+            android:layout_height="137dp"
+            android:layout_marginTop="360dp"
+            app:srcCompat="@drawable/stretch8" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sit on the floor, legs spread apart. With both hands, hold onto the shin of one leg. Lean forward, chin to knee. Hold for 20 seconds. Repeat. Switch legs"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="390dp"/>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
